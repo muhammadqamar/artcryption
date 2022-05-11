@@ -1,0 +1,69 @@
+.top_nav {
+  background-color: $White !important;
+  box-shadow: none !important;
+  color: $dark-10 !important;
+
+  .nav_tool_bar {
+    padding: 30px 100px !important;
+
+    @media (max-width: 1050px) {
+      padding: 46px 35px !important;
+    }
+
+    .logo_name {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      color: $dark;
+      margin: 0 76px 0 16px;
+
+      @media (max-width: 599px) {
+        font-size: 20.92px;
+        line-height: 25px;
+        color: $dark;
+        margin: 0;
+      }
+    }
+    .page_name {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: $dark-20;
+      text-decoration: none;
+      margin-right: 32px;
+    }
+    .notifi_img {
+      margin: 0 32px;
+      width: 32px;
+      height: 32px;
+      @media (max-width: 768px) {
+        width: 24px;
+        height: 24px;
+        margin: 0 20px;
+      }
+    }
+    .search_img {
+      display: block;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+    .user_img {
+      width: 52px;
+      height: 52px;
+      @media (max-width: 768px) {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .mobile_opener {
+      display: none;
+      margin-left: 28px;
+      @media (max-width: 768px) {
+        display: block;
+      }
+    }
+  }
+}
