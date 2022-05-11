@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Container, Box, AppBar, Toolbar } from "@mui/material";
+import { Container, Box, AppBar, Toolbar, Typography } from "@mui/material";
 
 import styles from "./style/topnav.module.scss";
 
@@ -14,7 +14,9 @@ const TopNavbar = () => {
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <Image src="/web-Logo.svg" width={36} height={52} alt="logo" />
             </Box>
-            <h6 className={styles.logo_name}>artcryption</h6>
+            <Typography variant="h6" className={styles.logo_name}>
+              artcryption
+            </Typography>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Link href="">

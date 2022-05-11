@@ -16,6 +16,7 @@
       line-height: 48px;
       color: $dark;
       margin: 0 76px 0 16px;
+      font-family: $kern;
 
       @media (max-width: 599px) {
         font-size: 20.92px;
@@ -31,6 +32,7 @@
       color: $dark-20;
       text-decoration: none;
       margin-right: 32px;
+      font-family: $kern;
     }
     .notifi_img {
       margin: 0 32px;

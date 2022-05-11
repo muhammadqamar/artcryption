@@ -2,4 +2,25 @@
   width: 100%;
   background-color: $Neutral-60;
   min-height: 54px;
+
+  .web_lnc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $dark-20;
+    font-family: $kern;
+  }
+  .page_name {
+    min-width: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $dark;
+    text-decoration: none;
+    font-family: $kern;
+  }
 }

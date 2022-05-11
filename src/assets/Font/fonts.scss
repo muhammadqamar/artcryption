@@ -1,0 +1,25 @@
+@import "../scss/variables.scss";
+
+@font-face {
+  font-family: $kern;
+  src: url("./Kern-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $haffer-xh-trial;
+  src: url("./HafferXHTRIAL-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $helvetica-font;
+  src: url("./Helvetica_1.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
