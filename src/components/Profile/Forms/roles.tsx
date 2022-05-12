@@ -15,9 +15,9 @@ import style from './allform.module.scss';
 const Roles = () => {
   const [age, setAge] = useState('');
 
-  const handleChange = (event: SelectChangeEvent) => {
-    setAge(event.target.value);
-  };
+  // const handleChange = (event:any) => {
+  //   setAge(event.target.value);
+  // };
   return (
     <Formik
       initialValues={{
@@ -59,7 +59,7 @@ const Roles = () => {
                 labelId="demo-simple-select-standard-label"
                 id="demo-simple-select-standard"
                 value={age}
-                onChange={handleChange}
+                // onChange={handleChange}
                 label="Age"
 
               >
