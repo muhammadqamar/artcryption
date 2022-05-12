@@ -3,12 +3,8 @@ import { Box, Tabs, Tab, Typography } from '@mui/material';
 
 import Banner from './banner';
 import About from './about';
-import FormContainer from './formContainer';
-import ProfileTab from './Forms/profileTab';
-import Roles from './Forms/roles';
-import Upload from './Forms/digitalIdentity';
-import Team from './Forms/TeamMembers';
-import SocialInforamtion from './Forms/socialInformation';
+import ProfileForm from './ProfileForm';
+import BioFrom from './BioForm';
 
 import style from './index.module.scss';
 
@@ -51,28 +47,10 @@ const Profile = () => {
           </Tabs>
         </Box>
         <TabPanel className="p-0" value={value} index={0}>
-          <Box className={style.dual_form}>
-            <FormContainer title="Name/Organization" width="538.73px" >
-              <ProfileTab />
-            </FormContainer>
-            <Box width={'100%'} display="flex" flexDirection='column' alignItems="flex-end" >
-              <FormContainer title="Digital Identity" width="313px">
-                <Upload />
-              </FormContainer>
-              <FormContainer title="Roles" width="313px">
-                <Roles />
-              </FormContainer>
-            </Box>
-          </Box>
-          <FormContainer title="Social Information">
-            <SocialInforamtion />
-          </FormContainer>
-          <FormContainer title="Team Members">
-            <Team />
-          </FormContainer>
+          <ProfileForm />
         </TabPanel>
-        <TabPanel value={value} index={1}>
-          Item Two
+        <TabPanel className="p-0" value={value} index={1}>
+          <BioFrom />
         </TabPanel>
         <TabPanel value={value} index={2}>
           Item Three

@@ -1,0 +1,49 @@
+.tableRoot {
+  box-shadow: 0px 0px 0px transparent;
+
+  .tablehead {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 0;
+    color: $dark;
+  }
+
+  .tablerow {
+    border: 1px solid rgba(196, 196, 196, 0.5);
+    border-radius: 8px;
+    padding: 10px 41px;
+
+    border-radius: 8px;
+    @media (max-width: $sm) {
+      border: none;
+      border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+    }
+  }
+  .tablerowSpace {
+    height: 10px;
+    @media (max-width: $sm) {
+      display: none;
+    }
+  }
+  .tablecell {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    color: $dark;
+    border: none;
+    @media (max-width: $sm) {
+      font-size: 12px;
+    }
+  }
+
+  .imgcell {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}

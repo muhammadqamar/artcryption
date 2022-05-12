@@ -2,9 +2,9 @@
   max-width: 954px;
   margin: 0 auto;
   padding: 75px 35px 0px;
-  @media (max-width:$md) {
+  @media (max-width: $md) {
     padding: 40px 35px 0px;
- }
+  }
 
   .all_tabs {
     margin-bottom: 50px;
@@ -19,20 +19,12 @@
       margin-right: 40px;
       color: $dark-20;
       min-height: 0;
-      &:last-child{
+      &:last-child {
         margin-right: 0px;
       }
-      @media (max-width:$md) {
-         margin-bottom: 9px;
+      @media (max-width: $md) {
+        margin-bottom: 9px;
       }
     }
-  }
-
-  .dual_form {
-    display: flex;
-    justify-content: space-between;
-    @media (max-width:$md) {
-      flex-direction: column;
-   }
   }
 }

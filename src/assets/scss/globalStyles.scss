@@ -64,7 +64,9 @@ h6 {
   }
 
   .formgroup,
-  .formgroup-dual {
+  .formgroup-dual,
+  .formgroup-thrice
+  {
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
@@ -98,6 +100,20 @@ h6 {
   .formgroup-dual {
     > div {
       width: 46%;
+    }
+    @media (max-width:$md) {
+      padding-bottom: 0px;
+      flex-direction: column;
+      > div {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+   }
+  }
+  .formgroup-thrice {
+    > div {
+      width: 31%;
     }
     @media (max-width:$md) {
       padding-bottom: 0px;
