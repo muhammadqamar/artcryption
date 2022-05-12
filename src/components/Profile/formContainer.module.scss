@@ -1,0 +1,19 @@
+.form_container {
+  background: $dark-90;
+  border-radius: 17px;
+  padding: 32px;
+  width:100%;
+  margin-bottom: 32px;
+  flex-shrink: 0;
+  h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+     padding-bottom: 30px;
+    color: $dark-40;
+  }
+
+  @media (max-width:$md) {
+    max-width: 100% !important;
+  }
+}
